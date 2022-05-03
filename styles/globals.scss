@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Akshar', sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+header {
+  width: 100vw;
+  height: 80vh;
+  background-image: url('../public/img/james.png');
+  background-size: cover;
+
+  .headerContent {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: white;
+  }
+  
+  h1 {
+    font-weight: 400;
+    font-size: 5rem;
+  }
+  h2 {
+    font-weight: 300;
+    font-size: 3rem;
+  }
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  section {
+    padding: 2rem;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 2rem;
+      font-weight: 300;
+    }
+  }
+}

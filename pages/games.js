@@ -32,6 +32,15 @@ const Games = () => {
                         </div>
                     </a>
                 </div>
+
+                <div className={`${styles.game} ${styles.wackTile}`}>
+                    <a target="_blank" rel="noreferrer" href="https://whack.shutupc.live">
+                        <div className={styles.info}>
+                            <h1>Whack-A-Clive</h1>
+                            <p>Whack-A-Mole but better!</p>
+                        </div>
+                    </a>
+                </div>
             </div>
             </section>
         </main>

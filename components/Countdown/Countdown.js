@@ -17,8 +17,8 @@ const Countdown = () => {
 
         const currentSeconds = new Date(ausTime).getTime();
         const CLIVE_TODAY_SECONDS = new Date(ausTime);
-        // CLIVE_TODAY_SECONDS.setHours(20,45,6,0);
-        CLIVE_TODAY_SECONDS.setHours(20,22,0,0);
+        CLIVE_TODAY_SECONDS.setHours(20,45,6,0);
+        // CLIVE_TODAY_SECONDS.setHours(20,22,0,0);
 
         const secs = (CLIVE_TODAY_SECONDS - currentSeconds) / 1000;
 
